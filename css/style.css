@@ -413,6 +413,16 @@ footer a {color: inherit;text-decoration: none;}
 	padding-bottom: 1rem;
 }
 
+.activity-link {
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255,255,255,0.35);
+}
+
+.activity-link:hover {
+	border-bottom-color: rgba(255,255,255,0.9);
+}
+
 /*ブロック内のspan。日付の横のアイコン的な部分の共通設定*/
 .new dt span {
 	display: inline-block;
